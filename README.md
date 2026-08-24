@@ -1,6 +1,4 @@
-<img width="1000" height="600" alt="cluster graph" src="https://github.com/user-attachments/assets/02238ce7-ba56-4a89-803e-e0e939acda65" /><img width="1979" height="1580" alt="star_schema_diagram" src="https://github.com/user-attachments/assets/efba8910-735e-4d3b-8c04-c09e346ddced" />
 
-# Ecommerce-Data-Warehouse
 # E-commerce Data Warehouse & Customer Segmentation
 
 Raw CSVs → clean star schema → SQL analytics → customer segmentation ML. A hands-on data warehousing project built from the ground up for anyone who loves exploring how data actually works.
@@ -25,6 +23,8 @@ CSV files → staging tables → star schema (fact + dimension tables) → SQL a
 ## Star schema
 
 The warehouse follows a classic Kimball-style star schema. fact_order_items sits at the center — one row per order item (the "grain") — with customer_key, product_key, and date_key linking out to the three dimension tables.
+
+height="1580" alt="star_schema_diagram" src="https://github.com/user-attachments/assets/efba8910-735e-4d3b-8c04-c09e346ddced" />
 
 | Table | Type | Description |
 |---|---|---|
@@ -63,6 +63,7 @@ Customer-level features — order frequency and total spend — were pulled dire
 *Note on this dataset:* Olist's customer base is dominated by one-time buyers — most customers place a single order, so "frequency" clusters heavily around 1, and the segmentation here separates mainly by *spend* (a handful of high-value single-purchase customers vs. the long tail of typical orders). This is a genuine, real-world characteristic of the dataset rather than a modeling artifact, and it's a useful reminder that repeat-purchase analysis needs a dataset with real repeat behavior to be meaningful.
 
 (Cluster chart included in this repo — see /assets)
+<img width="1000" height="600" alt="cluster graph" src="https://github.com/user-attachments/assets/02238ce7-ba56-4a89-803e-e0e939acda65" /><img width="1979" 
 
 ## Tech stack
 
