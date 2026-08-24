@@ -1,3 +1,5 @@
+<img width="1000" height="600" alt="cluster graph" src="https://github.com/user-attachments/assets/02238ce7-ba56-4a89-803e-e0e939acda65" /><img width="1979" height="1580" alt="star_schema_diagram" src="https://github.com/user-attachments/assets/efba8910-735e-4d3b-8c04-c09e346ddced" />
+
 # Ecommerce-Data-Warehouse
 # E-commerce Data Warehouse & Customer Segmentation
 
