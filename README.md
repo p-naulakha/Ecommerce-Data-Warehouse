@@ -63,7 +63,7 @@ Customer-level features — order frequency and total spend — were pulled dire
 *Note on this dataset:* Olist's customer base is dominated by one-time buyers — most customers place a single order, so "frequency" clusters heavily around 1, and the segmentation here separates mainly by *spend* (a handful of high-value single-purchase customers vs. the long tail of typical orders). This is a genuine, real-world characteristic of the dataset rather than a modeling artifact, and it's a useful reminder that repeat-purchase analysis needs a dataset with real repeat behavior to be meaningful.
 
 (Cluster chart included in this repo — see /assets)
-<img width="1000" height="600" alt="cluster graph" src="https://github.com/user-attachments/assets/02238ce7-ba56-4a89-803e-e0e939acda65" /><img width="1979" 
+<img width="1000" height="600" alt="cluster graph" src="https://github.com/user-attachments/assets/02238ce7-ba56-4a89-803e-e0e939acda65" />
 
 ## Tech stack
 
